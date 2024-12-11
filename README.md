@@ -12,10 +12,10 @@ operation and place it into the bottom of the stack, removing the two stack entr
 Example:
 
 [3,4,6]   ––>  [12,6]
-*         ––>
+*         
 
 [3,4,6]   ––>  [1.33,6]
-/         ––>
+/        
 
 
 ## Controls:

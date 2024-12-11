@@ -10,9 +10,11 @@ Enter a number and it goes into the stack. Enter another and it goes into the st
 Example:
 
 [3,4,6]   ––>  [12,6]
+
 *         
 
 [3,4,6]   ––>  [1.33,6]
+
 /        
 
 

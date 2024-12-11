@@ -19,19 +19,19 @@ Example:
 
 
 ## Controls:
-d : drop: drop stack; remove most recent entry from stack
+• d : drop: drop stack; remove most recent entry from stack
 
-c : clear: clear stack of all entries; reset
+• c : clear: clear stack of all entries; reset
 
-e : exit: exit program; quit
+• e : exit: exit program; quit
 
-* : multiply
+• * : multiply
   
-/ : divide ; for 12 / 6 = 2, 6 must be at the bottom of the stack
+• / : divide ; for 12 / 6 = 2, 6 must be at the bottom of the stack
 
-- : subtract; for 4 - 3 = 1, 3 must be at the bottom of stack
+• - : subtract; for 4 - 3 = 1, 3 must be at the bottom of stack
   
-+ : add
+• + : add
 
 
 ## Future Plans:

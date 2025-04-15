@@ -5,7 +5,7 @@ V2 - C++ Based
 
 -----
 
-Verison 2 of this calculator was translated to C++ with additional functions, where version 1 only had 4 functions
+Verison 2 of this calculator was translated to C++ with additional functions, where version 1 only had 4 functions. Version 2 ***must*** be compiled using C++11 or later, as previous versions did not support range-based for loops.
 
 Enter a number and it goes into the stack. Enter another and it goes into the stack, pushing up the prior. Enter an operation and using the 2 most recent entries in the stack, the calculator will perform the operation and place it into the bottom of the stack, removing the two stack entries used for the operation. Single value operations such as cosine, square, and log10 only use the bottom value on the stack.
 

@@ -1,6 +1,9 @@
 # RPN-Calculator
 V1 - Python Based
+
 V2 - C++ Based
+
+-----
 
 Verison 2 of this calculator was translated to C++ with additional functions, where version 1 only had 4 functions
 

@@ -1,10 +1,10 @@
 # RPN-Calculator
-Python Based
+V1 - Python Based
+V2 - C++ Based
 
-This is a simple, 4-function, console based Reverse-Polish Notation Calculator.
-Reverse-Polish Notation is a post-fix UI for a calculator.
+Verison 2 of this calculator was translated to C++ with additional functions, where version 1 only had 4 functions
 
-Enter a number and it goes into the stack. Enter another and it goes into the stack, pushing up the prior. Enter an operation and using the 2 most recent entries in the stack, the calculator will perform the operation and place it into the bottom of the stack, removing the two stack entries used for the operation.
+Enter a number and it goes into the stack. Enter another and it goes into the stack, pushing up the prior. Enter an operation and using the 2 most recent entries in the stack, the calculator will perform the operation and place it into the bottom of the stack, removing the two stack entries used for the operation. Single value operations such as cosine, square, and log10 only use the bottom value on the stack.
 
 
 Example:
@@ -30,8 +30,32 @@ input: /
 • / : divide ; for 12 / 6 = 2, 6 must be at the bottom of the stack
 
 • - : subtract; for 4 - 3 = 1, 3 must be at the bottom of stack
+
+• sin : sin
+
+• cos : cos
+
+• tan : tan
+
+• asin : arcsin
+
+• acos : arccos
+
+• atan : arctan
   
-• + : add
+• e : e^x
+
+• ln : natural log
+
+• ^ : x^y ; for 6^2 = 36, 6 must be at bottom of stack
+
+• root : y√x or the yth root of x ; for cubic root of 8 = 2, 8 must be at bottom of stack
+
+• sqrt : √x or the square root of x
+
+• logN : log_y(x) or log base y of x ; for log base 2 of 8 = 3, 8 must be at bottom of the stack
+
+• log10 : log_10(x) or log base 10 of x
 
 
 ## Future Plans:

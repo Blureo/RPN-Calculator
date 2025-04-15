@@ -52,6 +52,8 @@ input: /
 
 • ^ : x^y ; for 6^2 = 36, 6 must be at bottom of stack
 
+• ^2 : x^2 
+
 • root : y√x or the yth root of x ; for cubic root of 8 = 2, 8 must be at bottom of stack
 
 • sqrt : √x or the square root of x

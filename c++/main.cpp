@@ -27,8 +27,8 @@ int main(void)
     
     while (working) // Where calculator runs
     {
-        for (long i = 0; i < calcStack.size(); i++)
-            std::cout << calcStack[i] << std::endl;
+        for (double value : calcStack)
+            std::cout << value << std::endl;
         
         // give user a clear command line
         std::cout << "> ";

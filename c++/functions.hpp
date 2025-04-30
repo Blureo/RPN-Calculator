@@ -9,43 +9,43 @@
 #define functions_hpp
 
 #include <stdio.h>
-#include <list>
+#include <vector>
 #include <cmath>
 
-void multiply(std::list<double> &stack);
+void multiply(std::vector<double> &stack);
 
-void divide(std::list<double> &stack);
+void divide(std::vector<double> &stack);
 
-void add(std::list<double> &stack);
+void add(std::vector<double> &stack);
 
-void subtract(std::list<double> &stack);
+void subtract(std::vector<double> &stack);
 
-void exponent(std::list<double> &stack);
+void exponent(std::vector<double> &stack);
 
-void square(std::list<double> &stack);
+void square(std::vector<double> &stack);
 
-void root(std::list<double> &stack);
+void root(std::vector<double> &stack);
 
-void squareRoot(std::list<double> &stack);
+void squareRoot(std::vector<double> &stack);
 
-void naturalLog(std::list<double> &stack);
+void naturalLog(std::vector<double> &stack);
 
-void logb10(std::list<double> &stack);
+void logb10(std::vector<double> &stack);
 
-void logbN(std::list<double> &stack);
+void logbN(std::vector<double> &stack);
 
-void e(std::list<double> &stack);
+void e(std::vector<double> &stack);
 
-void SIN(std::list<double> &stack);
+void SIN(std::vector<double> &stack);
 
-void COS(std::list<double> &stack);
+void COS(std::vector<double> &stack);
 
-void TAN(std::list<double> &stack);
+void TAN(std::vector<double> &stack);
 
-void ASIN(std::list<double> &stack);
+void ASIN(std::vector<double> &stack);
 
-void ACOS(std::list<double> &stack);
+void ACOS(std::vector<double> &stack);
 
-void ATAN(std::list<double> &stack);
+void ATAN(std::vector<double> &stack);
 
 #endif /* functions_hpp */

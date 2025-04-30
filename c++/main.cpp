@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "functions.hpp"
-#include <list>
+#include <vector>
 #include <string>
 #include <stdexcept>
 
@@ -16,7 +16,7 @@
 int main(void)
 {
     bool working = true; // true while calculator runs
-    std::list<double> calcStack; // RPN stack;
+    std::vector<double> calcStack; // RPN stack;
     std::string action; // what user enters
     double numberInput; // what action becomes if action is a number
         
@@ -27,11 +27,11 @@ int main(void)
     
     while (working) // Where calculator runs
     {
-        for (double value : calcStack) // print stack elements in a column
-            std::cout << value << std::endl;
+        for (long i = 0; i < calcStack.size(); i++)
+            std::cout << calcStack[i] << std::endl;
         
         // give user a clear command line
-        std::cout << "> " << std::endl;
+        std::cout << "> ";
         
         // take input
         std::cin >> action;
